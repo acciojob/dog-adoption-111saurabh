@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+ body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+      margin: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    img {
+      width: 250px;
+      height: 200px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
